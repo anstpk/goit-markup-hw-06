@@ -603,8 +603,6 @@ body {
   .team-list {
     max-width: 100%;
   }
-
-  
 }
 
 /* section 4 portfolio */
@@ -614,15 +612,17 @@ body {
   padding-bottom: 96px;
 }
 
-.portfolio-list /* ul */ {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 48px 24px;
+  max-width: ;
+  margin: 0 auto;
 }
 
-.portfilio-item /* li */ {
-  width: 100%;
+.portfilio-item {
+  width: 288px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 } 
@@ -687,6 +687,7 @@ body {
 
   .portfilio-item {
     width: calc((100% - 24px) / 2);
+    width: 356px;
   }
 }  
 
@@ -702,6 +703,7 @@ body {
 
   .portfilio-item {
     width: calc((100% - (24px * 2)) / 3);
+    width: 360px;
     box-shadow: none;
   }
 
